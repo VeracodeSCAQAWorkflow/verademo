@@ -49,7 +49,6 @@ docker build --no-cache -t verademo .
 ```
 
 To run the container for local development run this:
-
 ```
 docker run --rm -it -p 127.0.0.1:8080:8080 --entrypoint bash -v "$(pwd)/app:/app" verademo
 ```
